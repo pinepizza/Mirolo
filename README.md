@@ -77,7 +77,3 @@ demo/
 ├── chrome-compat-demo.js  # Chrome API compatibility layer
 └── README.md              # This file
 ```
-
-## 🌟 Built with Bolt.new
-
-This demo was created to showcase the TimeSetu digital wellness platform. Perfect for demonstrating the full user experience without any technical setup requirements. 
