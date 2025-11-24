@@ -1,53 +1,83 @@
-# Mirolo
-Mirolo – Cross-Platform Screen-Time Coach
+# TimeSetu Demo
 
-Mirolo is a cross-platform screen-time coach that unifies browser and mobile activity into one smart dashboard. It tracks usage in real time, uses AI to identify productivity patterns, and offers focus tools, blocking, and visual insights to help you build healthier digital habits.
+This is a **standalone demo** of the TimeSetu dashboard that showcases all features without requiring the Chrome extension or any backend services.
 
-By reducing digital clutter and promoting intentional screen use, Mirolo empowers you to take control of your online routines and maintain balance across all your devices.
+## 🚀 Quick Start
 
-⸻
+1. **Start the demo server:**
+   ```bash
+   cd demo
+   python3 -m http.server 8080
+   ```
 
-🚀 Features
+2. **Open in browser:**
+   ```
+   http://localhost:8080
+   ```
 
-📊 Unified Dashboard
-	•	Combines browser and mobile usage into a single smart interface.
-	•	Tracks websites and apps in real time for a complete view of your digital activity.
+## 📱 Demo Features
 
-🤖 AI-Powered Productivity Insights
-	•	Uses AI to classify your activity as productive or distracting.
-	•	Offers personalized insights to help you understand your habits.
+### Device Views
+- **Overall View** - Combined analytics across all devices
+- **Browser View** - Chrome extension simulation with charts and top sites
+- **Mobile View** - Mobile app usage with screen time stats
+- **Laptop View** - Desktop application tracking and productivity metrics
+- **Share Stats** - Social sharing options and progress summaries
 
-🎯 Focus Tools
-	•	Focus Mode: Temporarily blocks distracting apps and websites.
-	•	Custom Focus Sessions: Create productivity sessions tailored to your workflow.
+### Interactive Elements
+- **Charts & Graphs** - Pie charts, bar graphs, and weekly trends
+- **Modal Windows** - Goals, Settings, and Weekly Summary popups
+- **Focus Mode** - Site blocking simulation
+- **Voice Review** - AI-powered weekly summaries
+- **Language Support** - Multi-language flag selector
 
-🛑 Manual & Category-Based Blocking
-	•	Block individual websites or entire categories (e.g., social media, entertainment).
-	•	Helps limit temptations and maintain your focus.
+## 📊 Dummy Data
 
-📈 Detailed Visual Analytics
-	•	Clear charts and visualizations of your daily, weekly, and monthly usage.
-	•	Understand trends in screen time, productivity patterns, and distraction sources.
+All views use comprehensive dummy data including:
 
-🎤 Weekly Voice Summaries
-	•	Automated voice summaries to help you reflect on your screen-time habits.
-	•	Offers constructive suggestions to improve your digital balance.
+- **Time Tracking**: Realistic daily/weekly usage patterns
+- **Applications**: Popular apps and websites with usage times
+- **Statistics**: Screen time, pickups, notifications, productivity scores
+- **Goals**: Progress tracking with streaks and achievements
+- **Categories**: Color-coded content classification
 
-🧭 Digital Well-Being Guidance
-	•	Encourages intentional screen use.
-	•	Helps build sustainable online routines across all devices.
+## 🎨 Design Features
 
-⸻
+- **Full-width responsive layout** matching the actual dashboard
+- **Professional dark theme** with gradient backgrounds
+- **Interactive hover effects** and smooth animations
+- **Consistent typography** using Inter font family
+- **Proper spacing and grid layouts**
 
-🧱 Tech Stack 
-	•	React Native
-	•	Django
-	•	Supabase
-	•	Gemini AI Model
+## 🔧 Technical Details
 
-⸻
+- **No dependencies** on Chrome extension or backend
+- **Pure HTML/CSS/JavaScript** with Chart.js for visualizations
+- **Responsive design** works on desktop and mobile
+- **Modular data structure** for easy customization
 
-📌 Project Team
-	•	Sujal Thapa
-	•	Rupak Bhattarai
-	•	Nishant Tiwari
+## 🎯 Use Cases
+
+- **Hackathon presentations** - Show full functionality quickly
+- **Portfolio showcase** - Demonstrate UI/UX design skills
+- **User testing** - Get feedback without complex setup
+- **Public demos** - Share with anyone without installation
+
+## 📁 File Structure
+
+```
+demo/
+├── index.html              # Device selection homepage
+├── browser-view.html       # Chrome extension simulation
+├── mobile-view.html        # Mobile app usage tracking
+├── laptop-view.html        # Desktop application monitoring
+├── overall-view.html       # Combined device analytics
+├── share-stats.html        # Social sharing features
+├── demo-data.js           # Comprehensive dummy data
+├── chrome-compat-demo.js  # Chrome API compatibility layer
+└── README.md              # This file
+```
+
+## 🌟 Built with Bolt.new
+
+This demo was created to showcase the TimeSetu digital wellness platform. Perfect for demonstrating the full user experience without any technical setup requirements. 
